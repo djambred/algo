@@ -18,12 +18,12 @@ void sGoto(){
     int a=5;
     
     if (a%2==0){
-        goto genap;
+        goto cek;
     }else{
         cout<<"bukan ";
     }
 
-    genap:
+    cek:
     cout<<"genap"<<endl;    
        
 }
